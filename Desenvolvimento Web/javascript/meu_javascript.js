@@ -1,0 +1,1 @@
+alert("Teste e inclusão do javascript a partir de u arquivo externo")
