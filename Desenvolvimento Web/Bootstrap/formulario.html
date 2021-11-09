@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formulários - Bootstrap</title>
+
+
+    <!-- Bootstrap CSS -->
+    <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+    <!--[if lt IE 9]>
+        <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+    <![endif]-->
+   
+  </head>
+
+  <body>
+      <div class="container" >
+      
+          <div class="page-header">
+            <h1>Formulários bootstrap</h1>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-8">
+              <h3>Cadastre-se</h3>
+
+              <form>
+                  <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" class="form-control" id="nome">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" id="email">
+                  </div>
+
+                   <div class="form-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" class="form-control" id="senha">
+                  </div>
+
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">Aceito os termos de serviços
+                    </label>
+                  </div>
+
+                  <div class="radio">
+                      <label>
+                        <input type="radio" name="opcoes">PHP
+                      </label>
+
+                      <label>
+                        <input type="radio" name="opcoes">Java
+                      </label>
+                  </div>
+
+                  <button type="submit" class="btn btn-primary">Cadastrar</button>
+              </form>
+          </div>
+
+            <div class="col-sm-4">
+              <h3>Logar</h3>
+
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+              </div>
+
+             <h3>Senha</h3>
+
+             <div class="form-group">
+               <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+             </div>
+
+             <button type="submit" class="btn btn-primary">Entrar</button>
+
+
+          </div>
+             
+      </div>
+     
+  </body>
+</html>
